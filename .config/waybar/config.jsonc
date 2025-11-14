@@ -1,0 +1,52 @@
+{
+    "modules-left": [
+        "sway/workspaces",
+        "sway/mode",
+        "sway/scratchpad",
+        "custom/media"
+    ],
+    "modules-right": [
+        "tray",
+        "cpu",
+        "memory",
+        "network",
+        "temperature",
+        "pulseaudio",
+        "clock",
+    ],
+    "tray": {
+        "icon-size": 30,
+        "spacing": 10
+    },
+    "clock": {
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%Y-%m-%d}"
+    },
+    "cpu": {
+        "interval": 3,
+        "format": "CPU:{avg_frequency}Gh"
+    },
+    "memory": {
+        "interval": 3,
+        "format": "MEM:{used}Gi"
+    },
+    "temperature": {
+        "critical-threshold": 80,
+        "format": "TEM:{temperatureC}°C"
+    },
+    "network": {
+        "format-wifi": "WIFI:{signalStrength}%",
+        "format-ethernet": "ETH:{ipaddr}/{cidr}",
+        "tooltip-format-wifi": "<small>{essid}</small>\n\nRX:{bandwidthDownBytes}\nTX:{bandwidthUpBytes}",
+        "tooltip-format-ethernet": " ",
+        "format-disconnected": "NoInternet",
+        "interval": 1
+    },
+    "pulseaudio": {
+        "format": "VOL:{volume}%",          
+        "format-muted": "VOL:X",              
+        "on-scroll-up": "wpctl set-volume @DEFAULT_SINK@ 5%+",
+        "on-scroll-down": "wpctl set-volume @DEFAULT_SINK@ 5%-",
+        "tooltip": true
+  }
+}

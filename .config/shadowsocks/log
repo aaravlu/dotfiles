@@ -1,8 +1,186 @@
-2025-11-14T15:17:31.888334067+08:00  INFO shadowsocks local 1.23.5 build 2025-10-03T06:08:54.637469042+00:00
-2025-11-14T15:17:31.889260503+08:00  INFO shadowsocks socks TCP listening on 127.0.0.1:1080
-2025-11-14T15:20:41.816051256+08:00 ERROR HTTP connection 127.0.0.1:41268 handler failed with error: connection closed before message completed
-2025-11-14T15:20:41.816071136+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
-2025-11-14T15:22:32.468919903+08:00 ERROR HTTP connection 127.0.0.1:34334 handler failed with error: connection closed before message completed
-2025-11-14T15:22:32.468946666+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
-2025-11-14T15:23:46.82231177+08:00 ERROR socks5 tcp client handler error: unexpected end of file
-2025-11-14T15:23:47.022757631+08:00 ERROR socks5 tcp client handler error: unexpected end of file
+2025-11-14T15:30:32.712689078+08:00  INFO shadowsocks local 1.23.5 build 2025-10-03T06:08:54.637469042+00:00
+2025-11-14T15:30:32.713711547+08:00  INFO shadowsocks socks TCP listening on 127.0.0.1:1080
+2025-11-14T15:30:43.044176682+08:00 ERROR HTTP connection 127.0.0.1:42910 handler failed with error: connection closed before message completed
+2025-11-14T15:30:43.044198716+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:31:41.697824101+08:00 ERROR socks5 tcp client handler error: unexpected end of file
+2025-11-14T15:31:41.697861705+08:00 ERROR socks5 tcp client handler error: unexpected end of file
+2025-11-14T15:31:41.697924268+08:00 ERROR socks5 tcp client handler error: unexpected end of file
+2025-11-14T15:31:41.697997001+08:00 ERROR socks5 tcp client handler error: unexpected end of file
+2025-11-14T15:31:41.698207013+08:00 ERROR socks5 tcp client handler error: unexpected end of file
+2025-11-14T15:31:41.698223776+08:00 ERROR socks5 tcp client handler error: unexpected end of file
+2025-11-14T15:31:41.698238665+08:00 ERROR socks5 tcp client handler error: unexpected end of file
+2025-11-14T15:31:41.700302291+08:00 ERROR HTTP connection 127.0.0.1:44672 handler failed with error: connection closed before message completed
+2025-11-14T15:31:41.700315356+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:31:41.700631628+08:00 ERROR HTTP connection 127.0.0.1:44746 handler failed with error: connection closed before message completed
+2025-11-14T15:31:41.700638682+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:31:41.700912359+08:00 ERROR HTTP connection 127.0.0.1:44688 handler failed with error: connection closed before message completed
+2025-11-14T15:31:41.700923782+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:31:41.700956135+08:00 ERROR HTTP connection 127.0.0.1:44748 handler failed with error: connection closed before message completed
+2025-11-14T15:31:41.700960113+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:31:41.700988699+08:00 ERROR HTTP connection 127.0.0.1:44704 handler failed with error: connection closed before message completed
+2025-11-14T15:31:41.700992216+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:31:41.701116791+08:00 ERROR HTTP connection 127.0.0.1:44716 handler failed with error: connection closed before message completed
+2025-11-14T15:31:41.701118975+08:00 ERROR socks5 tcp client handler error: unexpected end of file
+2025-11-14T15:31:41.7011214+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:31:41.701205405+08:00 ERROR socks5 tcp client handler error: unexpected end of file
+2025-11-14T15:31:41.701249261+08:00 ERROR HTTP connection 127.0.0.1:44736 handler failed with error: connection closed before message completed
+2025-11-14T15:31:41.701254141+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:31:41.701280643+08:00 ERROR HTTP connection 127.0.0.1:44726 handler failed with error: connection closed before message completed
+2025-11-14T15:31:41.701287196+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:31:41.701294781+08:00 ERROR socks5 tcp client handler error: unexpected end of file
+2025-11-14T15:31:41.701464845+08:00 ERROR socks5 tcp client handler error: unexpected end of file
+2025-11-14T15:31:41.701603147+08:00 ERROR HTTP connection 127.0.0.1:44782 handler failed with error: connection closed before message completed
+2025-11-14T15:31:41.701608858+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:31:41.701656221+08:00 ERROR HTTP connection 127.0.0.1:44794 handler failed with error: connection closed before message completed
+2025-11-14T15:31:41.701667373+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:31:41.701803621+08:00 ERROR socks5 tcp client handler error: unexpected end of file
+2025-11-14T15:31:41.70183352+08:00 ERROR socks5 tcp client handler error: unexpected end of file
+2025-11-14T15:31:41.701840884+08:00 ERROR HTTP connection 127.0.0.1:44804 handler failed with error: connection closed before message completed
+2025-11-14T15:31:41.70184376+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:31:41.70193551+08:00 ERROR socks5 tcp client handler error: unexpected end of file
+2025-11-14T15:31:41.701938306+08:00 ERROR HTTP connection 127.0.0.1:44830 handler failed with error: connection closed before message completed
+2025-11-14T15:31:41.701941893+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:31:41.701962944+08:00 ERROR socks5 tcp client handler error: unexpected end of file
+2025-11-14T15:31:42.062057478+08:00 ERROR HTTP connection 127.0.0.1:44862 handler failed with error: connection closed before message completed
+2025-11-14T15:31:42.062075814+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:31:42.513339525+08:00 ERROR HTTP connection 127.0.0.1:44892 handler failed with error: connection closed before message completed
+2025-11-14T15:31:42.51336767+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:31:42.545833784+08:00 ERROR HTTP connection 127.0.0.1:44908 handler failed with error: connection closed before message completed
+2025-11-14T15:31:42.545854254+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:31:42.546817507+08:00 ERROR HTTP connection 127.0.0.1:44922 handler failed with error: connection closed before message completed
+2025-11-14T15:31:42.546833409+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:31:42.546986349+08:00 ERROR HTTP connection 127.0.0.1:44930 handler failed with error: connection closed before message completed
+2025-11-14T15:31:42.546991389+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:31:42.54714436+08:00 ERROR HTTP connection 127.0.0.1:44952 handler failed with error: connection closed before message completed
+2025-11-14T15:31:42.547148648+08:00 ERROR HTTP connection 127.0.0.1:44936 handler failed with error: connection closed before message completed
+2025-11-14T15:31:42.547150923+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:31:42.547153367+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:31:42.547197244+08:00 ERROR HTTP connection 127.0.0.1:44944 handler failed with error: connection closed before message completed
+2025-11-14T15:31:42.547197013+08:00 ERROR HTTP connection 127.0.0.1:44946 handler failed with error: connection closed before message completed
+2025-11-14T15:31:42.54720068+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:31:42.547202464+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:31:42.547291719+08:00 ERROR HTTP connection 127.0.0.1:44960 handler failed with error: connection closed before message completed
+2025-11-14T15:31:42.547299525+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:31:42.547814687+08:00 ERROR HTTP connection 127.0.0.1:44978 handler failed with error: connection closed before message completed
+2025-11-14T15:31:42.547814276+08:00 ERROR HTTP connection 127.0.0.1:44962 handler failed with error: connection closed before message completed
+2025-11-14T15:31:42.547824426+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:31:42.547820298+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:31:42.547857792+08:00 ERROR HTTP connection 127.0.0.1:44992 handler failed with error: connection closed before message completed
+2025-11-14T15:31:42.547860016+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:31:42.54795852+08:00 ERROR HTTP connection 127.0.0.1:45008 handler failed with error: connection closed before message completed
+2025-11-14T15:31:42.547960644+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:31:42.547980182+08:00 ERROR HTTP connection 127.0.0.1:45002 handler failed with error: connection closed before message completed
+2025-11-14T15:31:42.547981986+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:31:42.548037024+08:00 ERROR HTTP connection 127.0.0.1:45012 handler failed with error: connection closed before message completed
+2025-11-14T15:31:42.548038737+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:31:42.548267557+08:00 ERROR HTTP connection 127.0.0.1:45014 handler failed with error: connection closed before message completed
+2025-11-14T15:31:42.548272677+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:31:42.54838644+08:00 ERROR HTTP connection 127.0.0.1:45026 handler failed with error: connection closed before message completed
+2025-11-14T15:31:42.548392442+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:31:43.773594929+08:00 ERROR HTTP connection 127.0.0.1:45062 handler failed with error: connection closed before message completed
+2025-11-14T15:31:43.7736106+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:31:44.436655611+08:00 ERROR socks5 tcp client handler error: unexpected end of file
+2025-11-14T15:42:25.089687021+08:00 ERROR HTTP connection 127.0.0.1:57948 handler failed with error: connection closed before message completed
+2025-11-14T15:42:25.089707567+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:42:25.116633394+08:00 ERROR HTTP connection 127.0.0.1:57954 handler failed with error: connection closed before message completed
+2025-11-14T15:42:25.116653419+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:42:25.639700365+08:00 ERROR HTTP connection 127.0.0.1:57966 handler failed with error: connection closed before message completed
+2025-11-14T15:42:25.639722033+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:42:26.98360193+08:00 ERROR HTTP connection 127.0.0.1:55488 handler failed with error: connection closed before message completed
+2025-11-14T15:42:26.983644805+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:42:30.647026749+08:00 ERROR HTTP connection 127.0.0.1:55688 handler failed with error: connection closed before message completed
+2025-11-14T15:42:30.647041565+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:42:30.647154874+08:00 ERROR HTTP connection 127.0.0.1:55700 handler failed with error: connection closed before message completed
+2025-11-14T15:42:30.647162527+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:42:34.879352556+08:00 ERROR HTTP connection 127.0.0.1:55836 handler failed with error: connection closed before message completed
+2025-11-14T15:42:34.879373303+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:42:34.880096553+08:00 ERROR HTTP connection 127.0.0.1:55844 handler failed with error: connection closed before message completed
+2025-11-14T15:42:34.880102253+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:42:34.880241157+08:00 ERROR HTTP connection 127.0.0.1:55850 handler failed with error: connection closed before message completed
+2025-11-14T15:42:34.880250203+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:42:34.880333609+08:00 ERROR HTTP connection 127.0.0.1:55852 handler failed with error: connection closed before message completed
+2025-11-14T15:42:34.880335432+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:46:54.471442021+08:00 ERROR socks5 tcp client handler error: unexpected end of file
+2025-11-14T15:48:34.392128548+08:00 ERROR socks5 tcp client handler error: unexpected end of file
+2025-11-14T15:51:16.366251631+08:00 ERROR HTTP connection 127.0.0.1:54972 handler failed with error: connection closed before message completed
+2025-11-14T15:51:16.366275998+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:51:26.525201849+08:00 ERROR socks5 tcp client handler error: unexpected end of file
+2025-11-14T15:51:26.529281882+08:00 ERROR socks5 tcp client handler error: unexpected end of file
+2025-11-14T15:51:26.796455615+08:00 ERROR socks5 tcp client handler error: unexpected end of file
+2025-11-14T15:51:27.704833805+08:00 ERROR socks5 tcp client handler error: unexpected end of file
+2025-11-14T15:51:38.887362823+08:00 ERROR HTTP connection 127.0.0.1:44800 handler failed with error: connection closed before message completed
+2025-11-14T15:51:38.887383021+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:54:27.522415847+08:00 ERROR HTTP connection 127.0.0.1:53498 handler failed with error: connection closed before message completed
+2025-11-14T15:54:27.522434163+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:54:27.522628667+08:00 ERROR HTTP connection 127.0.0.1:53504 handler failed with error: connection closed before message completed
+2025-11-14T15:54:27.522640079+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:54:27.901629564+08:00 ERROR HTTP connection 127.0.0.1:53592 handler failed with error: connection closed before message completed
+2025-11-14T15:54:27.901649954+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:54:27.996701493+08:00 ERROR HTTP connection 127.0.0.1:53594 handler failed with error: connection closed before message completed
+2025-11-14T15:54:27.996716723+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:54:28.716823659+08:00 ERROR HTTP connection 127.0.0.1:53612 handler failed with error: connection closed before message completed
+2025-11-14T15:54:28.716864328+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:57:34.566903521+08:00 ERROR HTTP connection 127.0.0.1:47492 handler failed with error: connection closed before message completed
+2025-11-14T15:57:34.566924812+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:57:34.584294524+08:00 ERROR socks5 tcp client handler error: unexpected end of file
+2025-11-14T15:57:34.759244486+08:00 ERROR HTTP connection 127.0.0.1:47518 handler failed with error: connection closed before message completed
+2025-11-14T15:57:34.7592672+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T15:57:34.882633009+08:00 ERROR socks5 tcp client handler error: unexpected end of file
+2025-11-14T15:57:35.052739747+08:00 ERROR HTTP connection 127.0.0.1:47530 handler failed with error: connection closed before message completed
+2025-11-14T15:57:35.052757962+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T16:00:10.304766122+08:00 ERROR HTTP connection 127.0.0.1:34740 handler failed with error: connection closed before message completed
+2025-11-14T16:00:10.30479585+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T16:00:10.996987423+08:00 ERROR socks5 tcp client handler error: unexpected end of file
+2025-11-14T16:00:15.749910889+08:00 ERROR HTTP connection 127.0.0.1:34812 handler failed with error: connection closed before message completed
+2025-11-14T16:00:15.749927651+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T16:00:16.494454389+08:00 ERROR socks5 tcp client handler error: unexpected end of file
+2025-11-14T16:00:16.533398945+08:00 ERROR socks5 tcp client handler error: unexpected end of file
+2025-11-14T16:00:17.54729859+08:00 ERROR HTTP connection 127.0.0.1:49176 handler failed with error: connection closed before message completed
+2025-11-14T16:00:17.547317935+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T16:00:17.547396607+08:00 ERROR socks5 tcp client handler error: unexpected end of file
+2025-11-14T16:00:17.547665305+08:00 ERROR HTTP connection 127.0.0.1:49188 handler failed with error: connection closed before message completed
+2025-11-14T16:00:17.547671173+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T16:00:17.577384875+08:00 ERROR socks5 tcp client handler error: unexpected end of file
+2025-11-14T16:00:48.052616995+08:00 ERROR socks5 tcp client handler error: unexpected end of file
+2025-11-14T16:00:48.312244639+08:00 ERROR socks5 tcp client handler error: unexpected end of file
+2025-11-14T16:00:51.511765131+08:00 ERROR HTTP connection 127.0.0.1:52222 handler failed with error: connection closed before message completed
+2025-11-14T16:00:51.51178561+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T16:00:51.511936281+08:00 ERROR HTTP connection 127.0.0.1:52234 handler failed with error: connection closed before message completed
+2025-11-14T16:00:51.511942841+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T16:00:51.853870423+08:00 ERROR HTTP connection 127.0.0.1:52246 handler failed with error: connection closed before message completed
+2025-11-14T16:00:51.853888959+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T16:00:52.56372582+08:00 ERROR socks5 tcp client handler error: unexpected end of file
+2025-11-14T16:00:52.564018142+08:00 ERROR HTTP connection 127.0.0.1:52272 handler failed with error: connection closed before message completed
+2025-11-14T16:00:52.564027795+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T16:04:54.90869369+08:00 ERROR HTTP connection 127.0.0.1:50048 handler failed with error: connection closed before message completed
+2025-11-14T16:04:54.908715768+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T16:04:54.908750317+08:00 ERROR HTTP connection 127.0.0.1:50056 handler failed with error: connection closed before message completed
+2025-11-14T16:04:54.908753182+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T16:04:55.568998402+08:00 ERROR HTTP connection 127.0.0.1:50066 handler failed with error: connection closed before message completed
+2025-11-14T16:04:55.569022273+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T16:04:55.919927008+08:00 ERROR HTTP connection 127.0.0.1:50096 handler failed with error: connection closed before message completed
+2025-11-14T16:04:55.919944979+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T16:04:59.414960288+08:00 ERROR HTTP connection 127.0.0.1:37114 handler failed with error: connection closed before message completed
+2025-11-14T16:04:59.414987825+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T16:05:00.06980198+08:00 ERROR socks5 tcp client handler error: unexpected end of file
+2025-11-14T16:05:00.07237123+08:00 ERROR HTTP connection 127.0.0.1:37224 handler failed with error: connection closed before message completed
+2025-11-14T16:05:00.072397184+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T16:05:00.072595865+08:00 ERROR HTTP connection 127.0.0.1:37236 handler failed with error: connection closed before message completed
+2025-11-14T16:05:00.072600813+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T16:05:00.073655319+08:00 ERROR socks5 tcp client handler error: unexpected end of file
+2025-11-14T16:05:00.097586073+08:00 ERROR HTTP connection 127.0.0.1:37246 handler failed with error: connection closed before message completed
+2025-11-14T16:05:00.097609994+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T16:05:00.684056348+08:00 ERROR socks5 tcp client handler error: unexpected end of file
+2025-11-14T16:05:32.417804683+08:00 ERROR HTTP connection 127.0.0.1:40540 handler failed with error: connection closed before message completed
+2025-11-14T16:05:32.417828885+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T16:05:32.418265898+08:00 ERROR HTTP connection 127.0.0.1:40552 handler failed with error: connection closed before message completed
+2025-11-14T16:05:32.41827281+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T16:05:32.418613347+08:00 ERROR HTTP connection 127.0.0.1:40564 handler failed with error: connection closed before message completed
+2025-11-14T16:05:32.418622783+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T16:06:05.131940483+08:00 ERROR socks5 tcp client handler error: unexpected end of file
+2025-11-14T16:06:05.132368725+08:00 ERROR HTTP connection 127.0.0.1:34992 handler failed with error: connection closed before message completed
+2025-11-14T16:06:05.132382388+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T16:06:05.286706806+08:00 ERROR socks5 tcp client handler error: unexpected end of file
+2025-11-14T16:06:05.382023791+08:00 ERROR HTTP connection 127.0.0.1:35008 handler failed with error: connection closed before message completed
+2025-11-14T16:06:05.382038967+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-14T16:06:16.326702762+08:00 ERROR socks5 tcp client handler error: unexpected end of file
