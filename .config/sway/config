@@ -1,0 +1,96 @@
+xwayland disable
+
+output * scale 2 mode 3840x2160@60Hz
+seat * xcursor_theme Adwaita 32
+
+bindsym Mod4+Up focus up
+bindsym Mod4+Down focus down
+bindsym Mod4+Left focus left
+bindsym Mod4+Right focus right
+
+bindsym Mod4+minus resize shrink width 10 px
+bindsym Mod4+equal resize grow width 10 px
+
+bindsym Mod4+Shift+Up move up
+bindsym Mod4+Shift+Down move down
+bindsym Mod4+Shift+Left move left
+bindsym Mod4+Shift+Right move right
+
+bindsym --no-repeat Mod4+1 workspace number 1; exec "echo 1 > /tmp/sov"
+bindsym --no-repeat Mod4+2 workspace number 2; exec "echo 1 > /tmp/sov"
+bindsym --no-repeat Mod4+3 workspace number 3; exec "echo 1 > /tmp/sov"
+bindsym --no-repeat Mod4+4 workspace number 4; exec "echo 1 > /tmp/sov"
+bindsym --no-repeat Mod4+5 workspace number 5; exec "echo 1 > /tmp/sov"
+bindsym --no-repeat Mod4+6 workspace number 6; exec "echo 1 > /tmp/sov"
+bindsym --no-repeat Mod4+7 workspace number 7; exec "echo 1 > /tmp/sov"
+bindsym --no-repeat Mod4+8 workspace number 8; exec "echo 1 > /tmp/sov"
+bindsym --no-repeat Mod4+9 workspace number 9; exec "echo 1 > /tmp/sov"
+bindsym --no-repeat Mod4+0 workspace number 10; exec "echo 1 > /tmp/sov"
+
+bindsym --release Mod4+1 exec "echo 0 > /tmp/sov"
+bindsym --release Mod4+2 exec "echo 0 > /tmp/sov"
+bindsym --release Mod4+3 exec "echo 0 > /tmp/sov"
+bindsym --release Mod4+4 exec "echo 0 > /tmp/sov"
+bindsym --release Mod4+5 exec "echo 0 > /tmp/sov"
+bindsym --release Mod4+6 exec "echo 0 > /tmp/sov"
+bindsym --release Mod4+7 exec "echo 0 > /tmp/sov"
+bindsym --release Mod4+8 exec "echo 0 > /tmp/sov"
+bindsym --release Mod4+9 exec "echo 0 > /tmp/sov"
+bindsym --release Mod4+0 exec "echo 0 > /tmp/sov"
+
+bindsym Mod4+Shift+1 move container to workspace number 1
+bindsym Mod4+Shift+2 move container to workspace number 2
+bindsym Mod4+Shift+3 move container to workspace number 3
+bindsym Mod4+Shift+4 move container to workspace number 4
+bindsym Mod4+Shift+5 move container to workspace number 5
+bindsym Mod4+Shift+6 move container to workspace number 6
+bindsym Mod4+Shift+7 move container to workspace number 7
+bindsym Mod4+Shift+8 move container to workspace number 8
+bindsym Mod4+Shift+9 move container to workspace number 9
+bindsym Mod4+Shift+0 move container to workspace number 10
+
+bindsym Mod4+b exec pkill -USR1 waybar
+bindsym Mod4+F11 fullscreen
+bindsym Mod4+space floating toggle
+bindsym --no-repeat Mod4+r exec j4-dmenu-desktop --dmenu='wmenu -i -l 10 -f 20'
+bindsym Mod4+k kill
+bindsym Mod4+Return exec foot
+bindsym Mod4+Shift+s exec grim -g "$(slurp)" - | tee ~/Pictures/screenshots/$(date +"%Y_%m%d_%H%M%S").png | wl-copy -t image/png
+bindsym --no-repeat Mod4+p exec ~/scripts/mod_p.sh
+bindsym XF86AudioRaiseVolume exec wpctl set-volume @DEFAULT_SINK@ 2%+
+bindsym XF86AudioLowerVolume exec wpctl set-volume @DEFAULT_SINK@ 2%-
+bindsym XF86AudioMute exec wpctl set-mute @DEFAULT_SINK@ toggle
+
+font pango:FiraCode 8
+
+client.focused          #2F2F2F00 #556064 #80FFF9 #1F1F1F00 #00000000
+client.focused_inactive #2F3D4400 #2F3D44 #1ABC9C #45494800 #00000000
+client.unfocused        #0F0F0F00 #2F3D44 #1ABC9C #45494800 #00000000
+client.urgent           #CB4B1600 #FDF6E3 #1ABC9C #268BD200 #00000000
+client.placeholder      #00000000 #0c0c0c #ffffff #00000000 #00000000
+
+default_border none
+default_floating_border none
+
+gaps inner 0
+gaps outer 0
+
+input * {
+    xkb_layout us
+    dwt enabled
+    tap enabled
+    middle_emulation enabled
+    repeat_rate 45
+    repeat_delay 370
+    accel_profile flat
+}
+
+bar {
+    position top
+    swaybar_command waybar
+}
+
+exec dbus-update-activation-environment --systemd --all
+exec swayidle -w timeout 360 'swaymsg "output * dpms off"' resume 'swaymsg "output * dpms on"'
+exec fcitx5 -d
+exec ~/scripts/wallpaper_sway.sh

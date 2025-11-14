@@ -1,0 +1,8 @@
+{
+    "server": "xr.wgnmdgfw.com",
+    "server_port": 34701,
+    "password": "4bb8e647-6e13-4296-8cf5-8823393f3dd7",
+    "method": "aes-128-gcm",
+    "local_address": "127.0.0.1",
+    "local_port": 1080
+}
