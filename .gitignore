@@ -13,7 +13,7 @@
 !.config/foot/
 !.config/foot/**
 !.config/shadowsocks/
-!.config/shadowsocks/**
+!.config/shadowsocks/config.json
 !.config/waybar/
 !.config/waybar/**
 
