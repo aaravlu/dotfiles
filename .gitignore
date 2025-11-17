@@ -17,6 +17,8 @@
 !.config/waybar/
 !.config/waybar/**
 
+!scripts/
+!scripts/**
 !suckless/
 !suckless/**
 
