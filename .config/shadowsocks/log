@@ -1,8 +1,2 @@
-2025-11-17T10:44:51.436250015+08:00  INFO shadowsocks local 1.23.5 build 2025-10-03T06:08:54.637469042+00:00
-2025-11-17T10:44:51.438839021+08:00  INFO shadowsocks socks TCP listening on 127.0.0.1:1080
-2025-11-17T10:45:05.221761558+08:00 ERROR HTTP connection 127.0.0.1:59904 handler failed with error: connection closed before message completed
-2025-11-17T10:45:05.221832962+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
-2025-11-17T10:45:05.838155198+08:00 ERROR HTTP connection 127.0.0.1:59928 handler failed with error: connection closed before message completed
-2025-11-17T10:45:05.838174384+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
-2025-11-17T10:45:05.838225159+08:00 ERROR HTTP connection 127.0.0.1:59926 handler failed with error: connection closed before message completed
-2025-11-17T10:45:05.838230078+08:00 ERROR socks5 tcp client handler error: connection closed before message completed
+2025-11-18T14:33:26.711873585+08:00  INFO shadowsocks local 1.23.5 build 2025-10-03T06:08:54.637469042+00:00
+2025-11-18T14:33:26.714194807+08:00  INFO shadowsocks socks TCP listening on 127.0.0.1:1080

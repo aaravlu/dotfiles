@@ -18,4 +18,5 @@ if ! shopt -oq posix; then
 fi
 
 alias fetch=macchina
+alias fd="fd --no-ignore -H"
 alias ll="ls -l --time-style=iso"
