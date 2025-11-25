@@ -6,9 +6,7 @@
   },
   "base_keymap": "VSCode",
   "proxy": "socks5h://127.0.0.1:1080",
-  // "proxy": "http://127.0.0.1:1080",
   "agent": {
-    "dock": "right",
     "default_profile": "write",
     "always_allow_tool_actions": true,
     "default_model": {
@@ -37,7 +35,7 @@
   "agent_buffer_font_size": 19,
   "buffer_font_family": "Fira Code",
   "buffer_font_size": 19,
-  "ui_font_family": "Source Han Serif SC",
+  "ui_font_family": "Source Han Serif CN",
   "ui_font_size": 19,
   "theme": {
     "mode": "system",
