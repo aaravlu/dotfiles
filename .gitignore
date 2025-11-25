@@ -22,6 +22,8 @@
 !.config/shadowsocks/config.json
 !.config/waybar/
 !.config/waybar/**
+!.config/zed/
+!.config/zed/settings.json
 
 !scripts/
 !scripts/**

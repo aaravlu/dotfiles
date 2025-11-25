@@ -1,0 +1,48 @@
+{
+  "auto_update": false,
+  // "disable_ai": true,
+  "features": {
+    "edit_prediction_provider": "copilot"
+  },
+  "base_keymap": "VSCode",
+  "proxy": "socks5h://127.0.0.1:1080",
+  // "proxy": "http://127.0.0.1:1080",
+  "agent": {
+    "dock": "right",
+    "default_profile": "write",
+    "always_allow_tool_actions": true,
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "grok-code-fast-1"
+    }
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "cursor_blink": false,
+  "lsp": {
+    "rust-analyzer": {
+      "initialization_options": {
+        "checkOnSave": true,
+        "check": {
+          "command": "clippy"
+        }
+      }
+    }
+  },
+  "terminal": {
+    "blinking": "off"
+  },
+  "agent_buffer_font_size": 19,
+  "buffer_font_family": "Fira Code",
+  "buffer_font_size": 19,
+  "ui_font_family": "Source Han Serif SC",
+  "ui_font_size": 19,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "One Light"
+  },
+  "languages": {}
+}
