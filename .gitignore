@@ -3,6 +3,7 @@
 !.gitignore
 !.gitconfig
 
+!.cargo/config.toml
 !.config/
 !.config/fcitx5/
 !.config/fcitx5/profile
