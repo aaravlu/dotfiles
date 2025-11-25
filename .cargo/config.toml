@@ -1,0 +1,25 @@
+[target.'cfg(target_os = "windows")']
+rustflags = [
+"-C", "target-cpu=haswell",
+"--cfg", "windows_slim_errors"
+]
+[target.'cfg(target_os = "linux")']
+rustflags = [
+"-C", "target-cpu=haswell"
+]
+
+[source.crates-io]
+replace-with = 'rsproxy-sparse'
+[source.rsproxy]
+registry = "https://rsproxy.cn/crates.io-index"
+[source.rsproxy-sparse]
+registry = "sparse+https://rsproxy.cn/index/"
+[registries.rsproxy]
+index = "https://rsproxy.cn/crates.io-index"
+
+[net]
+git-fetch-with-cli = true
+[http]
+proxy = ""
+[https]
+proxy = ""
