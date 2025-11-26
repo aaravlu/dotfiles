@@ -1,3 +1,3 @@
 #!/bin/sh
 /bin/timedatectl set-timezone Asia/Shanghai
-/bin/timedatectl set-local-rtc 1
+/bin/timedatectl set-local-rtc 1 --adjust-system-clock
