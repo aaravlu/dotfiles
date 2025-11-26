@@ -1,48 +1,32 @@
 * {
-    padding: 0 0px;
-    margin: 0 0px;
-    border: none;
-    border-radius: 0;
-    font-family: FiraCode;
-    font-size: 26px;
+  font-family: FiraCode;
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+  border: none;
+  border-radius: 0;
 }
 
 window {
-    background-color: rgba(0, 0, 0, 0.6667);
+    background-color: rgba(0,0,0,0.6667);
 }
+
 button {
-    padding: 0 10px;
+    padding: 0 0.8rem;   /* ≈10px */
     color: #8f8f8f;
 }
-button.focused {
-    padding: 0 10px;
+button:focus,
+button:hover {
     color: #3faf3f;
 }
 
-#cpu {
-    margin: 0 12px;
-    color: #9fffff
+#cpu, #memory, #network, #pulseaudio, #temperature, #clock {
+    margin: 0 2rem;
 }
-#clock {
-    margin: 0 12px;
-    color: #ff9fff
-}
-#memory {
-    margin: 0 12px;
-    color: #ffff9f
-}
-#network {
-    margin: 0 12px;
-    color: #2faf2f
-}
-#pulseaudio {
-    margin: 0 12px;
-    color: #ff9f9f
-}
-#temperature {
-    margin: 0 12px;
-    color: #9f9fff
-}
-#tray {
-    margin: 0 12px;
-}
+#cpu { color: #9fffff; }
+#memory { color: #ffff9f; }
+#network { color: #2faf2f; }
+#pulseaudio { color: #ff9f9f; }
+#temperature { color: #9f9fff; }
+#clock { color: #ff9fff; }
+#tray { margin: 0 2rem; }
