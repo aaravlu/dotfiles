@@ -12,16 +12,16 @@ window {
 }
 
 button {
-    padding: 0 1rem;
+    padding: 0 0.7rem;
     color: #afafaf;
 }
 button.focused {
-    padding: 0 1rem;
+    padding: 0 0.7rem;
     color: #4fef4f;
 }
 
 #cpu, #memory, #network, #pulseaudio, #temperature, #clock {
-    margin: 0 1rem;
+    margin: 0 0.8rem;
 }
 #cpu { color: #9fffff; }
 #memory { color: #ffff9f; }
@@ -29,4 +29,3 @@ button.focused {
 #pulseaudio { color: #ff9f9f; }
 #temperature { color: #9f9fff; }
 #clock { color: #efefef; }
-/* #tray { margin: 0 1rem; } */
