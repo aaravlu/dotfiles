@@ -1,6 +1,6 @@
 * {
   font-family: FiraCode;
-  font-size: 1.7rem;
+  font-size: 1.3rem;
   padding: 0;
   margin: 0;
   border: none;
@@ -29,4 +29,4 @@ button.focused {
 #pulseaudio { color: #ff9f9f; }
 #temperature { color: #9f9fff; }
 #clock { color: #efefef; }
-#tray { margin: 0 1rem; }
+/* #tray { margin: 0 1rem; } */
