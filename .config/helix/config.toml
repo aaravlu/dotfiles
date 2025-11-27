@@ -1,0 +1,15 @@
+theme = "nord"
+[editor]
+line-number = "relative"
+cursorline = true
+bufferline = "multiple"
+mouse = false
+[editor.cursor-shape]
+insert = "bar"
+select = "bar"
+[editor.statusline]
+left = ["mode", "spinner"]
+right = ["position", "file-encoding", "file-name", "file-type"]
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
