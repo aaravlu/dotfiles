@@ -2,11 +2,12 @@ export ALL_PROXY=127.0.0.1:1080
 export NO_PROXY="localhost,127.0.0.1,::1"
 
 export CARGO_HOME=$HOME/.cargo
+export PNPM_HOME="$HOME/.local/share/pnpm"
 export RUSTUP_DIST_SERVER=https://rsproxy.cn
 export RUSTUP_UPDATE_ROOT=https://rsproxy.cn/rustup
 export RUSTUP_HOME=$HOME/.rustup
 
-export PATH=$PATH:$CARGO_HOME/bin:$HOME/.local/bin
+export PATH=$PATH:$PNPM_HOME:$CARGO_HOME/bin:$HOME/.local/bin
 
 export SSH_AUTH_SOCK
 
