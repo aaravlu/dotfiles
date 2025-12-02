@@ -12,11 +12,11 @@ window {
 }
 
 button {
-    padding: 0 1rem;
+    padding: 0 0.8rem;
     color: #afafaf;
 }
 button.focused {
-    padding: 0 1rem;
+    padding: 0 0.8rem;
     color: #4fef4f;
 }
 
