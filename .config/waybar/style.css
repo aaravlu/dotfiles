@@ -21,6 +21,7 @@ button.focused {
 }
 
 #cpu, #memory, #network, #pulseaudio, #temperature, #clock {
+    padding: 0;
     margin: 0 0.8rem;
 }
 #cpu { color: #9fffff; }
