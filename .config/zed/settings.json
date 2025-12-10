@@ -5,7 +5,7 @@
     "edit_prediction_provider": "copilot"
   },
   "base_keymap": "VSCode",
-  "proxy": "socks5h://localhost:1080",
+  "proxy": "http://localhost:1080",
   "agent": {
     "default_profile": "write",
     "always_allow_tool_actions": true,
