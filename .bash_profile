@@ -10,8 +10,10 @@ export PATH=$PATH:$CARGO_HOME/bin:$HOME/.local/bin
 
 export SSH_AUTH_SOCK
 
-pkill sslocal 2>/dev/null
-sslocal -c ~/.config/shadowsocks/config.json > ~/.config/shadowsocks/log &
+# pkill sslocal 2>/dev/null
+# sslocal -c ~/.config/shadowsocks/config.json > ~/.config/shadowsocks/log &
+pkill clash 2>/dev/null
+clash -d ~/.config/clash > ~/.config/clash/log &
 
 [ "$(tty)" = "/dev/tty1" ] && exec sway
 [ "$(tty)" = "/dev/tty2" ] && exec startx
