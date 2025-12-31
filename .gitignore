@@ -6,6 +6,7 @@
 !.config
 !.config/clash
 !.config/clash/config.yaml
+!.config/clash/country.mmdb
 !.config/fcitx5
 !.config/fcitx5/conf
 !.config/fcitx5/conf/*.conf
@@ -23,7 +24,7 @@
 !.config/gtk-4.0/**
 !.config/helix
 !.config/helix/**
-!.config/shadowsocks/
+!.config/shadowsocks
 !.config/shadowsocks/config.json
 !.config/sway
 !.config/sway/**
