@@ -1,15 +1,15 @@
 [submodule "suckless/dwmblocks"]
 	path = suckless/dwmblocks
-	url = https://github.com/aaravlu/dwmblocks
+	url = https://github.com/emmettlu/dwmblocks
 [submodule "suckless/dwmblocks-async"]
 	path = suckless/dwmblocks-async
-	url = https://github.com/aaravlu/dwmblocks-async
+	url = https://github.com/emmettlu/dwmblocks-async
 [submodule "suckless/dwm-flexipatch"]
 	path = suckless/dwm-flexipatch
-	url = https://github.com/aaravlu/dwm-flexipatch
+	url = https://github.com/emmettlu/dwm-flexipatch
 [submodule "suckless/st-flexipatch"]
 	path = suckless/st-flexipatch
-	url = https://github.com/aaravlu/st-flexipatch
+	url = https://github.com/emmettlu/st-flexipatch
 [submodule "suckless/dmenu-flexipatch"]
 	path = suckless/dmenu-flexipatch
-	url = https://github.com/aaravlu/dmenu-flexipatch
+	url = https://github.com/emmettlu/dmenu-flexipatch
