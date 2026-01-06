@@ -4,7 +4,6 @@
   "features": {
     "edit_prediction_provider": "copilot"
   },
-  "base_keymap": "VSCode",
   "agent": {
     "default_profile": "write",
     "always_allow_tool_actions": true,
