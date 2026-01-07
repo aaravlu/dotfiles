@@ -1,8 +1,8 @@
 #!/bin/sh
-restart_swaybg() {
+set_wallpaper() {
   pkill swaybg 2>/dev/null
   swaybg -i ~/Pictures/today_bing.jpg
 }
 
 swaybg -i ~/Pictures/today_bing.jpg &
-wallpaper && restart_swaybg
+wallpaper && set_wallpaper
