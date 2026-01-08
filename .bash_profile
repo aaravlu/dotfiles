@@ -12,8 +12,8 @@ export SSH_AUTH_SOCK
 
 # pkill sslocal 2>/dev/null
 # sslocal -c ~/.config/shadowsocks/config.json > ~/.config/shadowsocks/log &
-pkill clash 2>/dev/null
-clash -d ~/.config/clash > ~/.config/clash/log &
+pkill mihomo 2>/dev/null
+mihomo > ~/.config/mihomo/log &
 
 [ "$(tty)" = "/dev/tty1" ] && exec sway
 [ "$(tty)" = "/dev/tty2" ] && exec startx
