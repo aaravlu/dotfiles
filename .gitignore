@@ -39,5 +39,5 @@
 !scripts/**
 !suckless
 !suckless/**
-.xinitrc
-.Xresources
+!.xinitrc
+!.Xresources
