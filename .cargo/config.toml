@@ -1,11 +1,11 @@
-[target.'cfg(target_os = "windows")']
-rustflags = [
-"-C", "target-cpu=haswell",
-"--cfg", "windows_slim_errors"
-]
-[target.'cfg(target_os = "linux")']
+[build]
 rustflags = [
 "-C", "target-cpu=haswell"
+]
+
+[target.'cfg(target_os = "windows")']
+rustflags = [
+"--cfg", "windows_slim_errors"
 ]
 
 [source.crates-io]
