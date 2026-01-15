@@ -1,6 +1,5 @@
-export SSH_AUTH_SOCK
-
-export ALL_PROXY=127.0.0.1:1080
+export HTTP_PROXY=http://127.0.0.1:8080
+export HTTPS_PROXY=$HTTP_PROXY
 export NO_PROXY="localhost,127.0.0.1,::1"
 
 export CARGO_HOME=$HOME/.cargo
@@ -9,10 +8,15 @@ export RUSTUP_DIST_SERVER=https://rsproxy.cn
 export RUSTUP_UPDATE_ROOT=https://rsproxy.cn/rustup
 export RUSTUP_HOME=$HOME/.rustup
 
+export SSH_AUTH_SOCK
+
 export PATH=$PATH:$CARGO_HOME/bin:$HOME/.local/bin
 
-pkill sslocal 2>/dev/null
-sslocal -c ~/.config/shadowsocks/config.json > ~/.config/shadowsocks/log &
+# pkill sslocal 2>/dev/null
+# sslocal -c ~/.config/shadowsocks/config.json > ~/.config/shadowsocks/log &
+
+pkill mihomo 2>/dev/null
+mihomo > ~/.config/mihomo/log &
 
 [ "$(tty)" = "/dev/tty1" ] && exec sway
 [ "$(tty)" = "/dev/tty2" ] && exec startx
