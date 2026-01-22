@@ -1,6 +1,7 @@
-export HTTP_PROXY=http://127.0.0.1:8080
+[[ $- != *i* ]] && return
+
+export HTTP_PROXY=http://127.0.0.1:1080
 export HTTPS_PROXY=$HTTP_PROXY
-export ALL_PROXY=socks5://127.0.0.1:1080
 export NO_PROXY="localhost,127.0.0.1,::1"
 
 export CARGO_HOME=$HOME/.cargo
@@ -12,10 +13,11 @@ export PATH=$PATH:$CARGO_HOME/bin:$HOME/.local/bin
 
 export SSH_AUTH_SOCK
 
+pac_server &
 pkill sslocal 2>/dev/null
-pkill mihomo 2>/dev/null
 sslocal -c ~/.config/shadowsocks/config.json > ~/.config/shadowsocks/log &
-mihomo > ~/.config/mihomo/log &
+# pkill mihomo 2>/dev/null
+# mihomo > ~/.config/mihomo/log &
 
 [ "$(tty)" = "/dev/tty1" ] && exec sway
 [ "$(tty)" = "/dev/tty2" ] && exec startx
