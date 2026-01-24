@@ -1,11 +1,15 @@
 [core]
-  editor = "hx"
+editor = "hx"
+
 [user]
-  name = emmettlu
-  email = demolemon@outlook.at
+name = emmettlu
+email = demolemon@outlook.at
+
 [init]
-  defaultBranch = hotfix
+defaultBranch = hotfix
+
 [credential]
-  helper = store
+helper = store
+
 [pull]
-  rebase = true
+rebase = true

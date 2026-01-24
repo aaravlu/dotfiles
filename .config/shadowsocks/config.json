@@ -1,7 +1,7 @@
 {
     "server": "cccxr.wgnmdgfw.com",
     "server_port": 34701,
-    "password": "3585d235-b5b8-4d06-98cf-64a585c61eef",
+    "password": "c17da5a7-9d15-40d4-8aeb-1ff07c8c79a5",
     "method": "aes-128-gcm",
     "local_address": "127.0.0.1",
     "local_port": 1080

@@ -37,8 +37,8 @@
     "network": {
         "format-wifi": "WIFI:{signalStrength}%",
         "format-ethernet": "ETH:{ipaddr}/{cidr}",
-        "tooltip-format-wifi": "<small>{essid}</small>\n\nRX:{bandwidthDownBytes}\nTX:{bandwidthUpBytes}",
-        "tooltip-format-ethernet": " ",
+        "tooltip-format-wifi": "{essid}\nRX:{bandwidthDownBytes}\nTX:{bandwidthUpBytes}",
+        "tooltip-format-ethernet": "{ifname}\nRX:{bandwidthDownBytes}\nTX:{bandwidthUpBytes}",
         "format-disconnected": "NoInternet",
         "interval": 1
     },
