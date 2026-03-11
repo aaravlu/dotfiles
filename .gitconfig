@@ -9,3 +9,7 @@
   helper = store
 [pull]
   rebase = true
+[https]
+proxy = "127.0.0.1:1080"
+[http]
+proxy = "127.0.0.1:1080"
