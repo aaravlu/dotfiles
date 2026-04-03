@@ -1,4 +1,4 @@
-[[ $- != *i* ]] && return
+# [[ $- != *i* ]] && return
 
 # export HTTP_PROXY=127.0.0.1:1080
 # export HTTPS_PROXY=$HTTP_PROXY
@@ -13,9 +13,9 @@ export PATH=$PATH:$CARGO_HOME/bin:$HOME/.local/bin
 
 export SSH_AUTH_SOCK
 
-pac_server &
-pkill sslocal 2>/dev/null
-sslocal -c ~/.config/shadowsocks/config.json > ~/.config/shadowsocks/log &
+# pac_server &
+# pkill sslocal 2>/dev/null
+# sslocal -c ~/.config/shadowsocks/config.json > ~/.config/shadowsocks/log &
 # pkill mihomo 2>/dev/null
 # mihomo > ~/.config/mihomo/log &
 

@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Feishu
-Exec=feishu --ozone-platform-hint=auto --enable-wayland-ime wayland-text-input-version=3 %U
+Exec=feishu --ozone-platform-hint=auto %U
 StartupNotify=true
 Terminal=false
 Type=Application
