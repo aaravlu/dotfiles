@@ -1,7 +1,5 @@
 xwayland disable
 
-# output * scale 2 mode 3840x2160@60Hz
-# seat * xcursor_theme Adwaita 32
 output * scale 2 mode 2560x1440@165Hz
 seat * xcursor_theme Adwaita 24
 
@@ -51,7 +49,7 @@ bindsym Mod4+Shift+8 move container to workspace number 8
 bindsym Mod4+Shift+9 move container to workspace number 9
 bindsym Mod4+Shift+0 move container to workspace number 10
 
-bindsym Mod4+F11 fullscreen
+bindsym --no-repeat Mod4+f fullscreen
 bindsym Mod4+space floating toggle
 bindsym Mod4+k kill
 bindsym --no-repeat Mod4+b exec pkill -USR1 waybar
