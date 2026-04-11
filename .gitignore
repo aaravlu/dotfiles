@@ -1,3 +1,5 @@
+*
+
 !.bash_profile
 !.bashrc
 !.cargo
@@ -41,5 +43,3 @@
 !scripts/**
 !suckless
 !suckless/**
-
-*
