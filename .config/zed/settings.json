@@ -1,24 +1,22 @@
 {
-  // "copilot": {
-  //   "proxy": "http://127.0.0.1:8080"
-  // },
-  "proxy": "http://127.0.0.1:8080",
-  "auto_update": false,
-  // "disable_ai": true,
-  "features": {
-    "edit_prediction_provider": "copilot"
+  "edit_predictions": {
+    "provider": "copilot",
   },
+  "auto_update": false,
   "agent": {
+    "tool_permissions": {
+      "default": "allow",
+    },
     "default_profile": "write",
-    "always_allow_tool_actions": true,
     "default_model": {
+      "effort": "high",
       "provider": "copilot_chat",
-      "model": "claude-sonnet-4.5"
-    }
+      "model": "gpt-5.3-codex",
+    },
   },
   "telemetry": {
     "diagnostics": false,
-    "metrics": false
+    "metrics": false,
   },
   "cursor_blink": false,
   "lsp": {
@@ -26,23 +24,23 @@
       "initialization_options": {
         "checkOnSave": true,
         "check": {
-          "command": "clippy"
-        }
-      }
-    }
+          "command": "clippy",
+        },
+      },
+    },
   },
   "terminal": {
-    "blinking": "off"
+    "blinking": "off",
   },
-  "agent_buffer_font_size": 19,
+  "agent_buffer_font_size": 13,
   "buffer_font_family": "Fira Code",
-  "buffer_font_size": 19,
+  "buffer_font_size": 13,
   "ui_font_family": "Source Han Serif CN",
-  "ui_font_size": 19,
+  "ui_font_size": 13,
   "theme": {
     "mode": "system",
     "light": "One Light",
-    "dark": "One Light"
+    "dark": "One Light",
   },
-  "languages": {}
+  "languages": {},
 }

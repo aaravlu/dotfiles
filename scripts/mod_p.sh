@@ -1,5 +1,5 @@
 #!/bin/sh
-[ -n "$WAYLAND_DISPLAY" ] && menu="wmenu -l 3" || menu="dmenu -l 3"
+[ -n "$WAYLAND_DISPLAY" ] && menu="wmenu -l 3 -f 'Source Han Serif CN 11'" || menu="dmenu -l 3 -fn 'Source Han Serif CN'"
 
 choice=$(printf "Logout\nReboot\nShutdown" | eval $menu)
 

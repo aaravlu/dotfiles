@@ -9,6 +9,10 @@ cd() {
     builtin pwd
 }
 
+alias fetch=macchina
+alias fd="fd --no-ignore -H"
+alias ll="ls -l --time-style=iso"
+
 if ! shopt -oq posix; then
   if [ -f /usr/share/bash-completion/bash_completion ]; then
     . /usr/share/bash-completion/bash_completion
@@ -16,7 +20,3 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-
-alias fetch=macchina
-alias fd="fd --no-ignore -H"
-alias ll="ls -l --time-style=iso"

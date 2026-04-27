@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=SPlayer
+Exec=splayer %U
+Terminal=false
+Type=Application
+StartupWMClass=SPlayer

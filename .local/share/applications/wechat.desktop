@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=WeChat
+Exec=wechat.sh %U
+StartupNotify=true
+Terminal=false
+Icon=wechat
+Type=Application

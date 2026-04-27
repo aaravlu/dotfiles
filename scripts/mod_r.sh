@@ -1,2 +1,2 @@
 #!/bin/sh
-j4-dmenu-desktop --dmenu='wmenu -i -l 8'
+j4-dmenu-desktop --dmenu='wmenu -i -l 10  -f "Source Han Serif CN 11"'

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=Zed
+TryExec=zed
+StartupNotify=true
+Exec=zed %U
+Icon=zed
+MimeType=text/plain;application/x-zerosize;x-scheme-handler/zed;
+Actions=NewWorkspace;
+
+[Desktop Action NewWorkspace]
+Exec=zed --new %U
+Name=Open a new workspace
