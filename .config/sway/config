@@ -1,7 +1,7 @@
 xwayland disable
 
-output * scale 2 mode 2560x1440@165Hz
-seat * xcursor_theme Adwaita 24
+output * scale 2 mode 3840x2160@60Hz
+seat * xcursor_theme Adwaita 32
 
 bindsym Mod4+Up focus up
 bindsym Mod4+Down focus down

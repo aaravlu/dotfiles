@@ -1,4 +1,4 @@
-# [[ $- != *i* ]] && return
+[[ $- != *i* ]] && return
 
 # export HTTP_PROXY=127.0.0.1:1080
 # export HTTPS_PROXY=$HTTP_PROXY
