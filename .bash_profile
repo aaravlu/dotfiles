@@ -19,5 +19,5 @@ export SSH_AUTH_SOCK
 # pkill mihomo 2>/dev/null
 # mihomo > ~/.config/mihomo/log &
 
-[ "$(tty)" = "/dev/tty1" ] && exec sway
+[ "$(tty)" = "/dev/tty1" ] && WLR_RENDERER=vulkan exec sway
 [ "$(tty)" = "/dev/tty2" ] && exec startx
