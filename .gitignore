@@ -1,5 +1,5 @@
-*
 
+!.Xresources
 !.bash_profile
 !.bashrc
 !.cargo
@@ -26,6 +26,8 @@
 !.config/shadowsocks/config.json
 !.config/sway/
 !.config/sway/**
+!.config/systemd/user/
+!.config/systemd/user/**
 !.config/waybar/
 !.config/waybar/**
 !.config/zed
@@ -37,9 +39,10 @@
 !.local/share/applications
 !.local/share/applications/*.desktop
 !.npmrc
-!.Xresources
 !.xinitrc
 !scripts
 !scripts/**
 !suckless
 !suckless/**
+
+*
