@@ -1,27 +1,20 @@
 [build]
-rustflags = [
-    "-C", "target-cpu=znver3"
-]
-[target.'cfg(windows)']
-rustflags = [
-    "--cfg", "windows_slim_errors"
-]
-[target.'cfg(unix)']
-rustflags = [
-]
+rustflags = ["-C", "target-cpu=znver3"]
 
-[source.crates-io]
-replace-with = 'rsproxy-sparse'
-[source.rsproxy]
-registry = "https://rsproxy.cn/crates.io-index"
-[source.rsproxy-sparse]
-registry = "sparse+https://rsproxy.cn/index/"
-[registries.rsproxy]
-index = "https://rsproxy.cn/crates.io-index"
+[target."cfg(windows)"]
+rustflags = ["--cfg", "windows_slim_errors"]
+
+[target."cfg(unix)"]
+rustflags = []
+
+[registries.crates-io]
+protocol = "sparse"
 
 [net]
 git-fetch-with-cli = true
+
 [http]
 proxy = ""
+
 [https]
 proxy = ""
